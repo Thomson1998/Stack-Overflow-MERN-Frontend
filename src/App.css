@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color:#ccd8e3;
+}
+
+.btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(15, 248, 23);
+    color: #222;
+    border:none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-light{
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .btn:hover{
+    background-color: rgba(4, 70, 68, 0.466);
+    color: black;
+    transition: 0.3s;
+
+  }

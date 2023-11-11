@@ -1,0 +1,48 @@
+.askques{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f9f9;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    align-items: center;
+    overflow-y: auto;
+}
+.askques>.card{
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+p{
+    font-size: small;
+}
+
+.title>input{
+    width: 100%;
+    height: 40px;
+    opacity: 0.6;
+}
+
+.body{
+    height: 50vh;
+}
+.quill{
+    width: 100%;
+    height: 75%;
+    text-align: top;
+}
+.btn-ques{
+    width: 30%;
+}
+
+@media screen and (max-width:1000px) {
+    .btn-ques{
+        width: 50%;
+    }
+    .tags{
+        padding: 12px 12px;
+    }
+}

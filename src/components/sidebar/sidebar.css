@@ -1,0 +1,42 @@
+.side-bar{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    top: 12px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-right: 2px solid #0f0101;
+}
+.side-card{
+    width: 80%;
+    height: 30%;
+    border-top: 5px solid rgb(149, 198, 236);
+    box-shadow: 2px 0px 5px 2px rgb(149, 198, 236);
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.side-card>a{
+    padding-left: 30px;
+}
+
+@media screen and (max-width:1000px) {
+    .side-bar{
+        display: none;
+    }
+}
+.side-bar>.side-card>a{
+    text-decoration: none;
+    color: black;
+  }
+  
+.side-card>a:hover{
+    width: 100%;
+    height: 30px;
+
+    background-color: rgb(149, 198, 236);
+    border-radius: 12px;
+    color: white;
+  }
