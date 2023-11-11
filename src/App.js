@@ -11,7 +11,7 @@ import ViewQues from "./components/viewQuestion/ViewQues";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import ResetPassword from "./components/auth/ResetPassword";
 import Profile from "./components/auth/Profile";
-export const url = "http://localhost:6500";
+export const url = "https://stack-overflow-mern-backend.onrender.com";
 
 function App() {
   return (
